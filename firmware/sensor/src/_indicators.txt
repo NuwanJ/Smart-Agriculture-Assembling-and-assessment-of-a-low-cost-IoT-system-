@@ -1,0 +1,89 @@
+
+MQTT connecting
+   Yellow
+
+
+
+SUCCESS_MQTT_PUBLISH
+   Blue x 1
+
+SUCCESS_MQTT_MSG_IN
+   Green x 1
+
+SUCCESS_OTA_REMOTE_STARTED
+   Green x 2
+
+SUCCESS_MQTT_LOG
+   Green x 3
+
+SUCCESS_*
+   Green x 4
+
+-- ERROR_SENSOR ----------------------------------------------------------------
+
+ERROR_SENSOR_BH1750_INIT_FAILED
+   Red x 4
+
+ERROR_SENSOR_BH1750_ERROR_CONDITION
+ERROR_SENSOR_BH1750_ERROR_MTREG_1
+ERROR_SENSOR_BH1750_ERROR_MTREG_2
+ERROR_SENSOR_BH1750_ERROR_MTREG_3
+   Red x 5
+
+ERROR_SENSOR_DHT_0_READ_FAIL
+   Red x 1
+
+ERROR_SENSOR_DHT_1_READ_FAIL
+   Red x 2
+
+ERROR_SENSOR_DHT_2_READ_FAIL
+   Red x 3
+
+
+
+-- OTA -------------------------------------------------------------------------
+
+ERROR_OTA_WIFI_FAILED
+   Cyan x 1
+
+ERROR_OTA_CLIENT_TIMEOUT
+   Cyan x 2
+
+ERROR_OTA_REMOTE_UNSUCCESS
+   Cyan x 3
+
+ERROR_OTA_NO_ENOUGH_SPACE
+   Cyan x 4
+
+ERROR_OTA_NO_CONTENT
+   Cyan x 5
+
+ERROR_OTA_LOCAL_FAILED
+   Cyan x 6
+
+
+
+-- MQTT ------------------------------------------------------------------------
+
+ERROR_MQTT_PUBLISH_FAILED
+   Purple x 1
+
+ERROR_MQTT_LOG_FAILED
+   Purple x 2
+
+ERROR_MQTT_RECONNECT_FAILED
+   Purple x 3
+
+
+
+-- ERROR_WIFI ------------------------------------------------------------------
+
+ERROR_WIFI_CONNECTION_FAILED
+   Red x 4
+
+
+
+-- Other -----------------------------------------------------------------------
+
+ERROR_OTHER
+   Red x 5

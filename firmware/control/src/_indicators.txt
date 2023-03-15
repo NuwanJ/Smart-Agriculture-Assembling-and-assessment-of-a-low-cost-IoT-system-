@@ -1,0 +1,24 @@
+
+
+Indicator 0
+   1 = Begin the controller
+
+
+Indicator 1
+   2 = topic update
+   4 = remote OTA
+
+Indicator 2
+   HIGH = MQTT is trying to connect
+
+
+Indicator 3
+   1 = Log success
+   2 = Log fail
+   3 = WiFi reconnect
+   4 = Remote OTA failed
+
+
+
+
+-----------------------------------
